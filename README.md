@@ -32,7 +32,7 @@ should receive relative path to folder where recipient plugin code is. If
 located at `../plugin_name/` folder.
 
 ``` sh
-rails generate foreman_plugin:migration AddFieldToMyTable field:string --plugin-name="my_plugin" --pluin-source="../my_plugin_folder"
+rails generate foreman_plugin:migration AddFieldToMyTable field:string --plugin-name="my_plugin" --plugin-source="../my_plugin_folder"
 ```
 
 
